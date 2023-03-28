@@ -10,12 +10,33 @@ Preprocess the data by encoding categorical variables using one-hot encoding, sc
 
 ## Model Building:
 Used Random Sampling to train both models on the training set and evaluate their performance on the testing set.
-Built a logistic regression model & KNN model using scikit-learn.
+Built a logistic regression model, KNN model & Random Forrest using scikit-learn.
 
 
 ## Model Comparison:
-The models were compared based on several evaluation metrics, including accuracy, precision, recall, and F1 score.
+The models were compared based on several evaluation metrics.
 
-* Comparing the KNN algorithm's performance with logistic regression,  logistic regression achieved an accuracy of 0.80. Therefore, KNN (when k = 7, accuracy score = 0.88) performed better than logistic regression in terms of classification accuracy on this dataset.
+## 1. In terms of Accuracy Score
 
-* It was also found that the KNN model performed better than the Logistic Regression model in identifying patients who were at high risk of experiencing a fracture. The KNN model had a higher recall score, indicating that it was better at correctly identifying patients who had a fracture.
+* RN (10 Trees): 0.99
+* KNN(when k=7): 0.88
+* LR: 0.80
+
+ Therefore, Random Forrest with 10 trees performed better than LR & KNN in terms of accuracy score.
+
+## 2. In terms of classfications:
+
+#### Correct Classifications:
+
+* RN (10 Trees): 99 correct predictions
+* KNN:88 
+* LR: 80
+
+
+#### Incorrect/Missclassifications:
+
+* RN (10 Trees): 1 incorrect predictions
+* KNN: 12 
+* LR: 20
+
+So, Random Forrest with 10 trees has more correct classifications & less missclssifications compared to LR & KNN. Hence, Random Forrest is the better model!
