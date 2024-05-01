@@ -18,7 +18,7 @@ The models were compared based on several evaluation metrics.
 
 ## 1. In terms of Accuracy Score
 
-* RN (10 Trees): 0.99
+* RF (10 Trees): 0.99
 * KNN(when k=7): 0.88
 * LR: 0.80
 
@@ -28,7 +28,7 @@ The models were compared based on several evaluation metrics.
 
 #### Correct Classifications:
 
-* RN (10 Trees): 99 correct predictions
+* RF (10 Trees): 99 correct predictions
 * KNN:88 
 * LR: 80
 
