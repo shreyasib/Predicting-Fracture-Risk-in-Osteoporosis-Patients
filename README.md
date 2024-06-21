@@ -5,8 +5,8 @@ This project aimed to develop a model that could accurately predict whether a pa
 The dataset included clinical data for 169 osteoporosis patients, including age, gender, bone mineral density (BMD), and several other relevant factors. 
 
 ## Data Preparation:
-Explore the data set to identify any missing values or outliers.
-Preprocess the data by encoding categorical variables using one-hot encoding, scaling numerical variables, and splitting the data into training and testing sets. Also, normalized the data.
+Explored the dataset to identify any missing values or outliers.
+Preprocessed the data by encoding categorical variables using one-hot encoding, scaled numerical variables, and split the data into training and testing sets. Also, normalized the data.
 
 ## Model Building:
 Used Random Sampling to train both models on the training set and evaluate their performance on the testing set.
